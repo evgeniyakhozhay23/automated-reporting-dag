@@ -1,3 +1,4 @@
+<img width="1558" height="309" alt="Снимок экрана — 2026-09-09 в 01 39 50" src="https://github.com/user-attachments/assets/53e6a33c-0b49-4c40-82c3-35911a636025" />
 # Автоматизация отчетности и отправление в мессенджер
 - Отчет о ленте новостей
 - Полный отчет по приложению 
@@ -52,11 +53,10 @@ Python, выгрузка данных из Clickhouse, Aiflow, Github, созд�
 - Таск 4: График с значениями метрик за предыдущие 7 дней. Создание plot object для отправки в Телеграмм.
 
 ### DAG в Airflow
-<img width="1561" height="440" alt="report DAG results" src="https://github.com/user-attachments/assets/1b48c18c-8536-4527-9dae-1d4dcc97f478" />
+<img width="1551" height="232" alt="Снимок экрана — 2026-09-09 в 01 40 46" src="https://github.com/user-attachments/assets/56e3be79-f3a2-4791-837f-34e2538d5e27" />
 
 ### Текстовой отчет в Телеграмм
 
-![Uploading Telegram message report .png…]()
 
 ## 2. Полный отчет по приложению 
 ### Условие задания
