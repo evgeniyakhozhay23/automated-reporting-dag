@@ -52,9 +52,11 @@ Python, выгрузка данных из Clickhouse, Aiflow, Github, созд�
 - Таск 4: График с значениями метрик за предыдущие 7 дней. Создание plot object для отправки в Телеграмм.
 
 ### DAG в Airflow
+<img width="1561" height="440" alt="report DAG results" src="https://github.com/user-attachments/assets/1b48c18c-8536-4527-9dae-1d4dcc97f478" />
 
+### Текстовой отчет в Телеграмм
 
-
+![Uploading Telegram message report .png…]()
 
 ## 2. Полный отчет по приложению 
 ### Условие задания
