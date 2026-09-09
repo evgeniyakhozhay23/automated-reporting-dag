@@ -76,7 +76,8 @@ def report_metrics_khozhay():
         )
         
         print(msg_report)
-        
+        # bot.sendMessage(chat_id=chat_id, text=msg_report) - для отправки в тг
+    
     @task()
     def transform_to_photo(df_metrics): 
         fig, axes = plt.subplots(2, 2, figsize=(15, 10))
@@ -102,6 +103,7 @@ def report_metrics_khozhay():
         plot_object.seek(0)
         plot_object.name = 'metrics_weekly_report.png'
         plt.close()
+        #bot.sendPhoto(chat_id=chat_id, photo=plot_object) - для отправки в тг
         return plot_object
     
     week_metrics = extract_metrics()
