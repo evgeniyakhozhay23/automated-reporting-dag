@@ -155,7 +155,8 @@ def app_metrics_khozhay():
             f"- WAU за неделю до: {wau_mess_2.WAU.values[0]/ 1000:.1f} тыс. пользователей\n"
         )
 
-        print(msg_report)
+        print(msg_report) # вместо отправкм в тг
+        # bot.sendMessage(chat_id=chat_id, text=msg_report) - для отправки в тг
     
     @task()
     def build_graph(feed, messanger_df):
@@ -189,6 +190,7 @@ def app_metrics_khozhay():
         plot_object.seek(0)
         plot_object.name = 'metrics_report.png'
         plt.close()
+        #bot.sendPhoto(chat_id=chat_id, photo=plot_object) - для отправки в тг
         return plot_object
     
     @task()
@@ -216,6 +218,7 @@ def app_metrics_khozhay():
         plot_object_2.seek(0)
         plot_object_2.name = 'report_long_run.png'
         plt.close()
+        #bot.sendPhoto(chat_id=chat_id, photo=plot_object_2) - для отправки в тг
         return plot_object_2
     
     feed = extract_data_feed()
