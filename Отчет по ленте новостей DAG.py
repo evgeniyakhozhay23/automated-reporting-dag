@@ -12,7 +12,7 @@ from airflow.decorators import dag, task
 from airflow.operators.python import get_current_context
 
 
-my_token = "8602950487:AAHsR7Veo0xfcXkNVe1XO_YzjkW5gzGx5rk"
+my_token = "my_token" # здесь токен бота в кавычках
 bot = telegram.Bot(token=my_token)
 
 chat_id = -1002614297220 
